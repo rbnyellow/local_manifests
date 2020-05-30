@@ -3,33 +3,35 @@
 
   <!--
     * device : j5y17lte
-    * date : 17/05/2020
-    * rom : MaruOS 0.6
+    * date : 30/05/2020
+    * rom : LineageOS 16.0
   -->
 
   <!-- Remote -->
     <remote name="rbnyellow" fetch="https://github.com/rbnyellow" />
-    <remote name="carbon-fusion" fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
+    <remote name="exynos7870" fetch="https://github.com/Exynos7870" />
 
   <!-- Devices -->
-    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="maru-0.6" />
-    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="carbon-fusion" revision="lineage-15.1" />
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-16.0_WIP" />
 
   <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="maru-0.6" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="lineage-15.1" />
 
   <!-- Vendor -->
-    <project name="android_vendor_samsung" path="vendor/samsung" remote="carbon-fusion" revision="lineage-15.1" />
-  
+    <project name="android_vendor_samsung" path="vendor/samsung" remote="exynos7870" revision="lineage-16.0" />
+
   <!-- Hardware -->
-    <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" />
-    <remove-project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
-    <project name="Exynos7870/android_hardware_ril" path="hardware/ril" remote="github" revision="o8x" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="exynos7870" revision="lineage-16.0" />
+
+    <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="exynos7870" revision="lineage-16.0" />
+    <project name="android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="exynos7870" revision="lineage-16.0" />
+    <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="exynos7870" revision="lineage-16.0" />
+    <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="exynos7870" revision="lineage-16.0" />
+
+  <!-- Devicesettings -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
-    <project name="android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="carbon-fusion" revision="lineage-15.1" />
-    <project name="android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="carbon-fusion" revision="lineage-15.1" />
-    <project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="carbon-fusion" revision="lineage-15.1" />
-    <project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="carbon-fusion" revision="lineage-15.1" />
+  <!-- lineage-sdk -->
+    <project name="LineageOS/android_prebuilts_lineage-sdk" path="prebuilts/lineage-sdk" remote="github" revision="lineage-16.0" />
 
 </manifest>
