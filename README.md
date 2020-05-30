@@ -10,7 +10,7 @@ $ mkdir lineage-16.0; cd lineage-16.0
 $ repo init -u https://github.com/LineageOS/android.git -b lineage-16.0
 
 # Clone my local repo
-$ git clone https://gitlab.com/rbnyellow/manifests/local_manifests.git -b lineage-16.0 .repo/local_manifests
+$ git clone https://github.com/rbnyellow/local_manifests.git -b lineage-16.0 .repo/local_manifests
 
 # Sync
 $ repo sync --force-sync -j64 #depend of your CPU
