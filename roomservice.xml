@@ -3,7 +3,7 @@
 
   <!--
     * device : j5y17lte
-    * date : 30/05/2020
+    * date : 01/06/2020
     * rom : LineageOS 16.0
   -->
 
@@ -12,10 +12,10 @@
     <remote name="exynos7870" fetch="https://github.com/Exynos7870" />
 
   <!-- Devices -->
-    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-16.0_WIP" />
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-16.0" />
 
   <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="lineage-15.1" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="lineage-16.0" />
 
   <!-- Vendor -->
     <project name="android_vendor_samsung" path="vendor/samsung" remote="exynos7870" revision="lineage-16.0" />
@@ -32,6 +32,6 @@
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
   <!-- lineage-sdk -->
-    <project name="LineageOS/android_prebuilts_lineage-sdk" path="prebuilts/lineage-sdk" remote="github" revision="lineage-16.0" />
+    <!-- project name="LineageOS/android_prebuilts_lineage-sdk" path="prebuilts/lineage-sdk" remote="github" revision="lineage-16.0" -->
 
 </manifest>
