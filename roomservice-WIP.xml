@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!--
+        * device : j5y17lte
+        * date : 14/06/2020
+        * rom : LineageOS 16.0
+    -->
+
+    <!-- Device -->
+        <project name="rbnyellow/android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="github" revision="lineage-16.0" />
+        <project name="Exynos7870/android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="github" revision="lineage-16.0-sid" />
+
+    <!-- Kernel -->
+        <project name="Exynos7870/android_kernel_samsung_universal7870" path="kernel/samsung/exynos7870" remote="github" revision="pie" />
+
+    <!-- Vendor -->
+        <project name="Exynos7870/android_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+
+    <!-- Hardware -->
+        <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
+
+    <!-- devicesettings -->
+        <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+
+</manifest>
