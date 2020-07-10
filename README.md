@@ -22,5 +22,5 @@ $ wget https://github.com/maruos/builds/releases/download/v0.6.8/maru-geb4a1b8-d
 $ source build/envsetup.sh
 $ lunch maru_j5y17lte-userdebug
 $ make -j64 #depend of your CPU
-$ brunch
+$ brunch j5y17lte
 ```
