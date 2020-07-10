@@ -3,13 +3,13 @@
     
     <!--
         * device : j5y17lte
-        * date : 19/06/2020
+        * date : 10/07/2020
         * rom : LineageOS 16.0
     -->
 
     <!-- Device -->
         <project name="rbnyellow/android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="github" revision="lineage-16.0" />
-        <project name="rbnyellow/android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="github" revision="lineage-16.0-sid" />
+        <project name="rbnyellow/android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="github" revision="lineage-16.0" />
 
     <!-- Kernel -->
         <project name="rbnyellow/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-16.0" />
@@ -22,8 +22,5 @@
 
     <!-- devicesettings -->
         <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-
-    <!-- framework_native (phone-xhdpi-2048-dalvik-heap.mk missing) -->
-        <project name="LineageOS/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-16.0" />
 
 </manifest>
