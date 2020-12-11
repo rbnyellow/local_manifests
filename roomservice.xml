@@ -9,7 +9,6 @@
 
     <!-- Remote -->
         <remote name="rbnyellow" fetch="https://github.com/rbnyellow" />
-        <remote name="carbon-fusion" fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
 
     <!-- Devices -->
         <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-15.1" />
