@@ -13,13 +13,13 @@
 
   <!-- Devices -->
     <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="maru-0.6" />
-    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="carbon-fusion" revision="lineage-15.1" />
+    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="rbnyellow" revision="lineage-15.1" />
 
   <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="maru-0.6" />
 
   <!-- Vendor -->
-    <project name="android_vendor_samsung" path="vendor/samsung" remote="carbon-fusion" revision="lineage-15.1" />
+    <project name="android_vendor_samsung" path="vendor/samsung" remote="rbnyellow" revision="lineage-15.1" />
   
   <!-- Hardware -->
     <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" />
