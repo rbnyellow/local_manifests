@@ -8,28 +8,29 @@
     -->
 
     <!-- Remote -->
-    <remote name="rbnyellow" fetch="https://github.com/rbnyellow" />
-    <remote name="carbon-fusion" fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
+        <remote name="rbnyellow" fetch="https://github.com/rbnyellow" />
+        <remote name="carbon-fusion" fetch="https://code.binbash.rocks:8443/MVA-VoLTE/" />
 
-  <!-- Devices -->
-    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-15.1" />
-    <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="rbnyellow" revision="lineage-15.1" />
+    <!-- Devices -->
+        <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="rbnyellow" revision="lineage-15.1" />
+        <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="rbnyellow" revision="lineage-15.1" />
 
-  <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="lineage-15.1" />
+    <!-- Kernel -->
+        <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="rbnyellow" revision="lineage-15.1" />
 
-  <!-- Vendor -->
-    <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="rbnyellow" revision="rbnyellow" />
+    <!-- Vendor -->
+        <project name="android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" remote="rbnyellow" revision="android-8.1" />
+        <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/j5y17lte" remote="rbnyellow" revision="android-8.1" />
   
-  <!-- Hardware -->
-    <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" />
-    <remove-project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
-    <project name="Exynos7870/android_hardware_ril" path="hardware/ril" remote="github" revision="o8x" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+    <!-- Hardware -->
+        <project name="nailyk-fr/android_hardware_samsung" path="hardware/samsung" remote="github" />
+        <remove-project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
+        <project name="Exynos7870/android_hardware_ril" path="hardware/ril" remote="github" revision="o8x" />
+        <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
-    <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
-    <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="lineage-15.1" />
-    <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1" />
-    <project name="Exynos7870/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1" />
+        <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
+        <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="lineage-15.1" />
+        <project name="Exynos7870/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1" />
+        <project name="Exynos7870/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1" />
 
 </manifest>
