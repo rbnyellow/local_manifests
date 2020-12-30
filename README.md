@@ -10,7 +10,7 @@ $ mkdir maru-0.6; cd maru-0.6
 $ repo init -u https://github.com/maruos/manifest -b maru-0.6
 
 # Clone my local repo
-$ git clone https://github.com/rbnyellow/local_manifests.git -b maru-0.6 .repo/local_manifests
+$ git clone https://github.com/rbnyellow/local_manifests_j5y17lte.git -b maru-0.6 .repo/local_manifests
 
 # Sync
 $ repo sync --force-sync -j64 #depend of your CPU
