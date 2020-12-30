@@ -10,7 +10,7 @@ $ mkdir lineage-15.1; cd lineage-15.1; mkdir working_dir; cd working_dir
 $ repo init --depth=1 -u https://github.com/LineageOS/android.git -b lineage-15.1
 
 # Clone my local repo
-$ git clone https://github.com/rbnyellow/local_manifests.git -b lineage-15.1 .repo/local_manifests
+$ git clone https://github.com/rbnyellow/local_manifests_j5y17lte.git -b lineage-15.1 .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
